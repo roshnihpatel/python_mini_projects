@@ -28,7 +28,6 @@ while is_game_playing:
         user_wins += 1
         continue
     else:
-         print(user_number, random_number)
          print("\nComputer picked:", rps[random_number], " -- You lost!!\n")
          computer_wins += 1
 
